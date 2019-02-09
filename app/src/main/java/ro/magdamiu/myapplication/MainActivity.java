@@ -2,9 +2,13 @@ package ro.magdamiu.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -59,9 +63,35 @@ public class MainActivity extends AppCompatActivity {
 
         // get the EditText element
         mEditTextPhoneNumber = findViewById(R.id.edit_text_phone_number);
+        mEditTextPhoneNumber.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
         // get the CheckBox element
         mCheckBoxTerms = findViewById(R.id.checkbox_terms);
+        mCheckBoxTerms.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // add your code
+                } else {
+                    // add your code
+                }
+            }
+        });
+
 
         // get the RadioButtons and RadioGroup elements
         mRadioGroupSelection = findViewById(R.id.radio_group_selection);

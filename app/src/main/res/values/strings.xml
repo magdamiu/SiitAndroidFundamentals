@@ -10,4 +10,5 @@
     <string name="new_text">New text</string>
     <string name="change_text">Change Text</string>
     <string name="required">Required</string>
+    <string name="fruits">Fruits</string>
 </resources>
