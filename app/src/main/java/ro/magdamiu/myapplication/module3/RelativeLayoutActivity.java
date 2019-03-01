@@ -1,7 +1,9 @@
-package ro.magdamiu.myapplication;
+package ro.magdamiu.myapplication.module3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import ro.magdamiu.myapplication.R;
 
 public class RelativeLayoutActivity extends AppCompatActivity {
 

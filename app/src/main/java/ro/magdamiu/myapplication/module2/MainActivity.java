@@ -1,10 +1,9 @@
-package ro.magdamiu.myapplication;
+package ro.magdamiu.myapplication.module2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -19,6 +18,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import ro.magdamiu.myapplication.R;
 import ro.magdamiu.myapplication.utils.Logging;
 
 public class MainActivity extends AppCompatActivity {

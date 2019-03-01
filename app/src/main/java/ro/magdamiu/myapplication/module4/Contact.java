@@ -1,4 +1,4 @@
-package ro.magdamiu.myapplication.complexview;
+package ro.magdamiu.myapplication.module4;
 
 public class Contact {
     private String mFullName;

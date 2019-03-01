@@ -1,4 +1,4 @@
-package ro.magdamiu.myapplication.complexview;
+package ro.magdamiu.myapplication.module4;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import ro.magdamiu.myapplication.MainActivity;
 import ro.magdamiu.myapplication.R;
 
 public class RecyclerViewActivity extends AppCompatActivity {

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ro.magdamiu.myapplication">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,18 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".complexview.RecyclerViewActivity">
+        <activity android:name=".AndroidFundamentalsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SpinnerActivity">
-        </activity>
-        <activity android:name=".RelativeLayoutActivity" />
-        <activity android:name=".WebViewActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".module2.RatingBarActivity" />
+        <activity android:name=".module5.Activity2" />
+        <activity android:name=".module5.Activity1"></activity>
+        <activity android:name=".module4.RecyclerViewActivity"></activity>
+        <activity android:name=".module3.SpinnerActivity" />
+        <activity android:name=".module3.RelativeLayoutActivity" />
+        <activity android:name=".module3.WebViewActivity" />
+        <activity android:name=".module2.MainActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package ro.magdamiu.myapplication;
+package ro.magdamiu.myapplication.module3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ro.magdamiu.myapplication.R;
 
 public class SpinnerActivity extends AppCompatActivity implements
         AdapterView.OnItemSelectedListener {

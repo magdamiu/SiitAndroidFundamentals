@@ -1,9 +1,11 @@
-package ro.magdamiu.myapplication;
+package ro.magdamiu.myapplication.module3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+
+import ro.magdamiu.myapplication.R;
 
 public class WebViewActivity extends AppCompatActivity {
 
