@@ -6,8 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 
 import ro.magdamiu.myapplication.module2.RatingBarActivity;
+import ro.magdamiu.myapplication.module4.complex.ComplexRecyclerView;
 import ro.magdamiu.myapplication.module5.Activity1;
 import ro.magdamiu.myapplication.module5.Activity2;
+import ro.magdamiu.myapplication.module5.SaveInstanceStateActivity;
+import ro.magdamiu.myapplication.module6.DynamicFragmentActivity;
+import ro.magdamiu.myapplication.module6.FragmentActivity;
 
 public class AndroidFundamentalsActivity extends AppCompatActivity {
 
@@ -24,4 +28,21 @@ public class AndroidFundamentalsActivity extends AppCompatActivity {
     public void activitiesOnClick(View view) {
         startActivity(new Intent(AndroidFundamentalsActivity.this, Activity1.class));
     }
+
+    public void recyclerViewListenerOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, ComplexRecyclerView.class));
+    }
+
+    public void saveInstanceStateOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, SaveInstanceStateActivity.class));
+    }
+
+    public void staticFragmentOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, FragmentActivity.class));
+    }
+
+    public void dynamicFragmentOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, DynamicFragmentActivity.class));
+    }
+
 }

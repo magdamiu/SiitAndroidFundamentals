@@ -33,4 +33,15 @@
     <string name="start_activity_with_intent">Start Activity with Intent</string>
     <string name="bundle">Bundle</string>
     <string name="activity_for_result">Activity for result</string>
+    <string name="click">click</string>
+    <string name="single_click">Single click</string>
+    <string name="long_click">Long click</string>
+    <string name="recyclerview_with_listener">RecyclerView with Listener</string>
+    <string name="save_instance_state">Save Instance State</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="static_fragment">Static Fragment</string>
+    <string name="dynamic_fragment">Dynamic Fragment</string>
+    <string name="send_email_from_activity_to_fragment">Send Email from Activity to Fragment</string>
 </resources>

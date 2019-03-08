@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".AndroidFundamentalsActivity">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
         android:padding="@dimen/space_16">
 
         <Button
@@ -24,6 +23,28 @@
             android:layout_height="wrap_content"
             android:onClick="ratingBarOnClick"
             android:text="@string/rating_bar_example" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recyclerViewListenerOnClick"
+            android:text="@string/recyclerview_with_listener" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveInstanceStateOnClick"
+            android:text="@string/save_instance_state" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="staticFragmentOnClick"
+            android:text="@string/static_fragment" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="dynamicFragmentOnClick"
+            android:text="@string/dynamic_fragment" />
     </LinearLayout>
 
 </ScrollView>

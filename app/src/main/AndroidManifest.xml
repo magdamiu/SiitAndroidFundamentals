@@ -12,6 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".module6.DynamicFragmentActivity"></activity>
+        <activity android:name=".module6.FragmentActivity" />
+        <activity android:name=".module5.SaveInstanceStateActivity" />
         <activity android:name=".AndroidFundamentalsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,12 +24,13 @@
         </activity>
         <activity android:name=".module2.RatingBarActivity" />
         <activity android:name=".module5.Activity2" />
-        <activity android:name=".module5.Activity1"></activity>
-        <activity android:name=".module4.RecyclerViewActivity"></activity>
+        <activity android:name=".module5.Activity1" />
+        <activity android:name=".module4.RecyclerViewActivity" />
         <activity android:name=".module3.SpinnerActivity" />
         <activity android:name=".module3.RelativeLayoutActivity" />
         <activity android:name=".module3.WebViewActivity" />
         <activity android:name=".module2.MainActivity" />
+        <activity android:name=".module4.complex.ComplexRecyclerView" />
     </application>
 
 </manifest>

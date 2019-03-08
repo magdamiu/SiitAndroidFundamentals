@@ -116,7 +116,9 @@ public class Activity1 extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == Activity.RESULT_OK && requestCode == SEND_CODE) {
             String result = data.getStringExtra(RESULT);
-            mTextViewResult.setText(result);
+            if(result != null && !result.isEmpty()) {
+                mTextViewResult.setText(result);
+            }
         }
         if (resultCode == Activity.RESULT_CANCELED) {
         }
