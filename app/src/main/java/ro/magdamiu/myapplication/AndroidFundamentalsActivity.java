@@ -12,7 +12,10 @@ import ro.magdamiu.myapplication.module5.Activity2;
 import ro.magdamiu.myapplication.module5.SaveInstanceStateActivity;
 import ro.magdamiu.myapplication.module6.DynamicFragmentActivity;
 import ro.magdamiu.myapplication.module6.FragmentActivity;
+import ro.magdamiu.myapplication.module6.ListenerFragment;
+import ro.magdamiu.myapplication.module6.ListenerFragmentActivity;
 import ro.magdamiu.myapplication.module6.MethodFragmentActivity;
+import ro.magdamiu.myapplication.module6.NavigationDrawerActivity;
 
 public class AndroidFundamentalsActivity extends AppCompatActivity {
 
@@ -48,5 +51,14 @@ public class AndroidFundamentalsActivity extends AppCompatActivity {
 
     public void methodFragmentOnClick(View view) {
         startActivity(new Intent(AndroidFundamentalsActivity.this, MethodFragmentActivity.class));
+    }
+
+    public void listenerFragmentOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, ListenerFragmentActivity.class));
+    }
+
+
+    public void navigationDrawerOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, NavigationDrawerActivity.class));
     }
 }

@@ -46,4 +46,14 @@
     <string name="send_email_from_activity_to_fragment">Send Email from Activity to Fragment</string>
     <string name="send_name">Send name</string>
     <string name="method_activity_fragment"><![CDATA[Method Activity <-> Fragment]]></string>
+    <string name="send_numbers">Send Numbers</string>
+    <string name="fill_input">Fill the input</string>
+    <string name="listener_activity_fragment"><![CDATA[Listener Activity <-> Fragment]]></string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>

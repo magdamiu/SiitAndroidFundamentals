@@ -51,6 +51,18 @@
             android:layout_height="wrap_content"
             android:onClick="methodFragmentOnClick"
             android:text="@string/method_activity_fragment" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="listenerFragmentOnClick"
+            android:text="@string/listener_activity_fragment" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="navigationDrawerOnClick"
+            android:text="Navigation Drawer" />
     </LinearLayout>
 
 </ScrollView>
