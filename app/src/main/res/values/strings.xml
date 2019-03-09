@@ -44,4 +44,6 @@
     <string name="static_fragment">Static Fragment</string>
     <string name="dynamic_fragment">Dynamic Fragment</string>
     <string name="send_email_from_activity_to_fragment">Send Email from Activity to Fragment</string>
+    <string name="send_name">Send name</string>
+    <string name="method_activity_fragment"><![CDATA[Method Activity <-> Fragment]]></string>
 </resources>

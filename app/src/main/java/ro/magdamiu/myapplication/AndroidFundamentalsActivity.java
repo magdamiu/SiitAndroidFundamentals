@@ -12,6 +12,7 @@ import ro.magdamiu.myapplication.module5.Activity2;
 import ro.magdamiu.myapplication.module5.SaveInstanceStateActivity;
 import ro.magdamiu.myapplication.module6.DynamicFragmentActivity;
 import ro.magdamiu.myapplication.module6.FragmentActivity;
+import ro.magdamiu.myapplication.module6.MethodFragmentActivity;
 
 public class AndroidFundamentalsActivity extends AppCompatActivity {
 
@@ -45,4 +46,7 @@ public class AndroidFundamentalsActivity extends AppCompatActivity {
         startActivity(new Intent(AndroidFundamentalsActivity.this, DynamicFragmentActivity.class));
     }
 
+    public void methodFragmentOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, MethodFragmentActivity.class));
+    }
 }
