@@ -62,7 +62,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="navigationDrawerOnClick"
-            android:text="Navigation Drawer" />
+            android:text="@string/navigation_drawer" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ancenstralNavigationOnClick"
+            android:text="@string/ancestral_navigation" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tabsOnClick"
+            android:text="@string/tabs" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cardViewOnClick"
+            android:text="@string/cardview_example" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="githubApiOnClick"
+            android:text="@string/github_users" />
     </LinearLayout>
 
 </ScrollView>

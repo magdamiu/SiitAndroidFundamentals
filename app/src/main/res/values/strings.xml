@@ -56,4 +56,29 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="tab_label1">Tab 1</string>
+    <string name="tab_label2">Tab 2</string>
+    <string name="tab_label3">Tab 3</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="tabs">Tabs</string>
+    <string name="ancestral_navigation">Ancestral Navigation</string>
+    <string name="go_to_second_activity">Go to second Activity</string>
+    <string name="title_card_view">Blockchain doesn\'t matter. Here\'s why. Inside Design Blog</string>
+    <string name="cardview_example">CardView Example</string>
+    <string name="take_picture">Take picture</string>
+    <string name="large_text">Scrolling text .... a lot of text added here....With a Raspberry Pi 3 you get access to 26 general purpose input/output pins (GPIO). That is to say you could potentially attach 26 different things to your</string>
+    <string name="notice">Notice</string>
+    <string name="alert_title">Title</string>
+    <string name="launch_app">Launch app</string>
+    <string name="reminde_me">Reminde me</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_occured">Error occured</string>
+    <string name="retry">Retry</string>
+    <string name="retry_message">Please retry again</string>
+    <string name="check_code">check the code :D</string>
+    <string name="error_github">error Github users =</string>
+    <string name="github_users">Github users =</string>
+    <string name="alert">Alert</string>
+    <string name="timepickerdialog">TimePicker</string>
+    <string name="date">Date</string>
 </resources>

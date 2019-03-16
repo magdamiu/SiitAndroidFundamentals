@@ -16,6 +16,10 @@ import ro.magdamiu.myapplication.module6.ListenerFragment;
 import ro.magdamiu.myapplication.module6.ListenerFragmentActivity;
 import ro.magdamiu.myapplication.module6.MethodFragmentActivity;
 import ro.magdamiu.myapplication.module6.NavigationDrawerActivity;
+import ro.magdamiu.myapplication.module6.ancestralnavigation.FirstActivity;
+import ro.magdamiu.myapplication.module6.tabs.TabsActivity;
+import ro.magdamiu.myapplication.module7.CardViewActivity;
+import ro.magdamiu.myapplication.module8.github.GithubActivity;
 
 public class AndroidFundamentalsActivity extends AppCompatActivity {
 
@@ -60,5 +64,21 @@ public class AndroidFundamentalsActivity extends AppCompatActivity {
 
     public void navigationDrawerOnClick(View view) {
         startActivity(new Intent(AndroidFundamentalsActivity.this, NavigationDrawerActivity.class));
+    }
+
+    public void tabsOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, TabsActivity.class));
+    }
+
+    public void ancenstralNavigationOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, FirstActivity.class));
+    }
+
+    public void cardViewOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, CardViewActivity.class));
+    }
+
+    public void githubApiOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, GithubActivity.class));
     }
 }

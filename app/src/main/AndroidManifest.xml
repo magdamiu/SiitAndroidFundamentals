@@ -12,10 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".module8.github.GithubActivity"></activity>
+        <activity android:name=".module7.CardViewActivity" />
+        <activity
+            android:name=".module6.ancestralnavigation.SecondActivity"
+            android:parentActivityName=".module6.ancestralnavigation.FirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".module6.ancestralnavigation.FirstActivity" />
+        </activity>
+        <activity android:name=".module6.ancestralnavigation.FirstActivity" />
+        <activity android:name=".module6.tabs.TabsActivity" />
         <activity
             android:name=".module6.NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".module6.ListenerFragmentActivity" />
         <activity android:name=".module6.MethodFragmentActivity" />
         <activity android:name=".module6.DynamicFragmentActivity" />
