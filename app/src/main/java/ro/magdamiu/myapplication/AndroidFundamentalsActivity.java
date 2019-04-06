@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import ro.magdamiu.myapplication.module10.ExtraRecyclerViewActivity;
 import ro.magdamiu.myapplication.module2.RatingBarActivity;
 import ro.magdamiu.myapplication.module4.complex.ComplexRecyclerView;
 import ro.magdamiu.myapplication.module5.Activity1;
@@ -80,5 +81,9 @@ public class AndroidFundamentalsActivity extends AppCompatActivity {
 
     public void githubApiOnClick(View view) {
         startActivity(new Intent(AndroidFundamentalsActivity.this, GithubActivity.class));
+    }
+
+    public void recyclerViewWithDividerOnClick(View view) {
+        startActivity(new Intent(AndroidFundamentalsActivity.this, ExtraRecyclerViewActivity.class));
     }
 }
